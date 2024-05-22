@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestDoubleGenerator.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "generate --source \"https://petstore.swagger.io/v2/swagger.json\" --output \".\" --name WebApplicationExtensions.cs"
+    }
+  }
+}

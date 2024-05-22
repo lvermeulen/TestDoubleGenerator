@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDoubleGenerator", "src\TestDoubleGenerator\TestDoubleGenerator.csproj", "{754B8D67-588C-443A-8A8D-E2303D31D2D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88ED9673-7678-45A6-B86D-4D1F5B4048B0}"
+	ProjectSection(SolutionItems) = preProject
+		swagger.json = swagger.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDoubleGenerator.Tests", "test\TestDoubleGenerator.Tests\TestDoubleGenerator.Tests.csproj", "{1C9547BA-2E16-42DB-A022-9A1D327D6E89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDoubleGenerator.Cli", "src\TestDoubleGenerator.Cli\TestDoubleGenerator.Cli.csproj", "{B8E21CBB-7AB7-447F-B04B-4900FBCDCF78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{27526FFC-441A-498A-9ED4-EBBE1931D870}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDoubleGenerator.Cli.Tests", "test\TestDoubleGenerator.Cli.Tests\TestDoubleGenerator.Cli.Tests.csproj", "{BCF10B8A-FF2F-4A89-B8FF-BD02D567664C}"
+EndProject
+Global
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5FB0DB3-DA7F-487B-9F07-784EC8B95CD9}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C9547BA-2E16-42DB-A022-9A1D327D6E89} = {27526FFC-441A-498A-9ED4-EBBE1931D870}
+		{BCF10B8A-FF2F-4A89-B8FF-BD02D567664C} = {27526FFC-441A-498A-9ED4-EBBE1931D870}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9547BA-2E16-42DB-A022-9A1D327D6E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9547BA-2E16-42DB-A022-9A1D327D6E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9547BA-2E16-42DB-A022-9A1D327D6E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9547BA-2E16-42DB-A022-9A1D327D6E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754B8D67-588C-443A-8A8D-E2303D31D2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754B8D67-588C-443A-8A8D-E2303D31D2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754B8D67-588C-443A-8A8D-E2303D31D2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754B8D67-588C-443A-8A8D-E2303D31D2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E21CBB-7AB7-447F-B04B-4900FBCDCF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E21CBB-7AB7-447F-B04B-4900FBCDCF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E21CBB-7AB7-447F-B04B-4900FBCDCF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E21CBB-7AB7-447F-B04B-4900FBCDCF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF10B8A-FF2F-4A89-B8FF-BD02D567664C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF10B8A-FF2F-4A89-B8FF-BD02D567664C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF10B8A-FF2F-4A89-B8FF-BD02D567664C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF10B8A-FF2F-4A89-B8FF-BD02D567664C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
